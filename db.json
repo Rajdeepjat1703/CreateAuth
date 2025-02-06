@@ -1,11 +1,63 @@
 {
-  "users": [
+  "menuItems": [
     {
-      "id": "6d91",
-      "username": "Jfe",
-      "mobile": "1234567890",
-      "password": "password123",
-      "email": "john.doe@example.com"
+      "productName": "Margherita Pizza",
+      "itemId": "1",
+      "stock": 15,
+      "category": "Pizza",
+      "price": 299,
+      "availability": "Available",
+      "description": "Classic cheese pizza with tomato sauce and mozzarella cheese.",
+      "image": "https://i.ibb.co/FkLhQpnJ/7000e4be49ae.png"
+    },
+    {
+      "productName": "Veggie Burger",
+      "itemId": "2",
+      "stock": 10,
+      "category": "Burger",
+      "price": 199,
+      "availability": "Available",
+      "description": "Delicious burger with fresh veggies and a special sauce.",
+      "image": "https://i.ibb.co/FkLhQpnJ/7000e4be49ae.png"
+    },
+    {
+      "productName": "Pasta Alfredo",
+      "itemId": "3",
+      "stock": 8,
+      "category": "Pasta",
+      "price": 249,
+      "availability": "Available",
+      "description": "Creamy Alfredo pasta with garlic and parmesan cheese.",
+      "image": "https://i.ibb.co/FkLhQpnJ/7000e4be49ae.png"
+    },
+    {
+      "productName": "Chocolate Cake",
+      "itemId": "4",
+      "stock": 20,
+      "category": "Dessert",
+      "price": 150,
+      "availability": "Available",
+      "description": "Rich chocolate cake topped with chocolate ganache.",
+      "image": "https://i.ibb.co/FkLhQpnJ/7000e4be49ae.png"
     }
+  ],
+  "metrics": {
+    "dailySales": 3500,
+    "monthlyRevenue": 120000,
+    "tableOccupancy": 75
+  },
+  "overview": [
+    { "month": "January", "sales": 15000, "revenue": 450000 },
+    { "month": "February", "sales": 14000, "revenue": 420000 },
+    { "month": "March", "sales": 16000, "revenue": 480000 },
+    { "month": "April", "sales": 43500, "revenue": 465000 },
+    { "month": "May", "sales": 40500, "revenue": 435000 },
+    { "month": "June", "sales": 17000, "revenue": 510000 },
+    { "month": "July", "sales": 480000, "revenue": 480000 },
+    { "month": "August", "sales": 500000, "revenue": 525000 },
+    { "month": "September", "sales": 120000, "revenue": 495000 },
+    { "month": "October", "sales": 15000, "revenue": 450000 },
+    { "month": "November", "sales": 14000, "revenue": 420000 },
+    { "month": "December", "sales": 18000, "revenue": 540000 }
   ]
 }

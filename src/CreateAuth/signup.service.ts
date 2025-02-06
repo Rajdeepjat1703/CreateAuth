@@ -6,7 +6,6 @@ export class SignupService {
 
   async signup(userData: any): Promise<any> {
     try {
-    
       const response = await fetch(this.jsonServerUrl, {
         method: 'POST',
         headers: {
